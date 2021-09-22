@@ -3,8 +3,9 @@
 This repository contains software to compute the segregation indices
 based on Class Coverage Times (CCT), as explained in the paper:  
 
->  S. Sousa, V. Nicosia
->  "Quantifying ethnic segregation in cities through random walks".
+> S. Sousa, V. Nicosia
+> "Quantifying ethnic segregation in cities through random walks".
+> arXiv: https://arxiv.org/abs/2010.10462
 
 The code can be copied, used, modified, and redistributed under the
 terms of the MIT/Expat License. Please see the file LICENSE for
