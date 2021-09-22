@@ -12,8 +12,14 @@ terms of the MIT/Expat License. Please see the file LICENSE for
 additional details.
 
 
-**Before executing any code, please read the scripts and make sure you have all
-the required packages installed**
+Software requirements:
+\* *The list bellow indicates the versions at which the experiments were conducted.*
+- anaconda 4.8.2 (recommended for operating system compatibility)
+- Python 3.7.6
+- numpy 1.18.1
+- pandas 1.0.1
+- shapely 1.6.4
+- fiona 1.8.6
 
 
 # Obtaining the edge-list and node properties for CCT data  
@@ -79,7 +85,10 @@ passed to the <idx> parameter, the following results:
 "Node ID" "[list with the CCT for each fraction c]"
 ```
 where each line corresponds to the average over all repetitions of the random
-walk from node i.
+walk from node i. The runtime depends on the number of nodes in the graph and
+the number of repetitions per node, which is expected to take a few seconds
+for a single node with 100 repetitions. The runtime can vary significantly per
+repetition since the trajectory of the walker is a pure stochastic process.
 
 The synthetic systems use the script `rw_cct_fnt_synthetic.py` which needs the
 following input:
