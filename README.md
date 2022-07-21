@@ -23,6 +23,11 @@ Software requirements:
 - shapely 1.6.4
 - fiona 1.8.6
 
+For segregation measures and maps:
+- geopandas 0.8.1
+- segregation 1.5.0 (Pysal)
+- libpysal 4.4.0 (Pysal)
+
 
 # Obtaining the edge-list and node properties for CCT data  
 
