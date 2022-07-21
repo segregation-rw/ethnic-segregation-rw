@@ -127,6 +127,11 @@ UK systems with the assigned numeric ID \*.
 
 \* *All files available at three spatial scales LSOA, OA and Wards.*
 
+**Socio-economic-US:**
+- `ACSDP5Y2011.DP03_data_with_overlays_2021-02-21T040944.csv`: Socio-Economic Indicators at `CSA` level.
+- `ACSDP5Y2011.DP03_metadata_2021-02-21T040944.csv`: Metadata information.
+- `ACSDP5Y2011.DP03_table_title_2021-02-21T040944.txt`: Description of the fields in the `CSV` table.
+
 **Synthetic:**
 - `edge_list_[size]_[boundary].txt`: Edge-list for synthetic systems for
 distinct lattice size and boundary conditions.
