@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/408901149.svg)](https://zenodo.org/badge/latestdoi/408901149)
+
 # ethnic-segregation-rw
 
 This repository contains software to compute the segregation indices
